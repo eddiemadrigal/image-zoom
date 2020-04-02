@@ -1,0 +1,35 @@
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    width: 50%;
+    margin: 10px auto;
+}
+
+.img-zoom-container {
+    display: flex;
+}
+
+#thumbnails > img {
+    display: block;
+    margin: 0 20px 20px 0;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, .2);
+}
+
+#zoom-this-image {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, .2);
+    cursor: zoom-in;
+}
+
+#zoomResult {
+    margin-left: 20px;
+    width: 200px;
+    height: 200px;
+    background-image: url('./images/img1.jpeg');
+    background-repeat: no-repeat;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, .2);
+}
+
+
+
